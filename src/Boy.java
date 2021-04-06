@@ -1,8 +1,14 @@
 import java.util.Random;
 public class Boy {
+    public static String[] randomBoyNames;
+    public static int length;
+    public Boy(String names[]){
+        randomBoyNames = names;
+    }
+
     public static String returnName(){
         Random rand = new Random();
-        String[] randomBoyNames = {"Artour","Babaev","Topias","Calvin","Henrik"};
-        return randomBoyNames[rand.nextInt(5)];
+
+        return randomBoyNames[rand.nextInt(randomBoyNames.length)];
     }
 }
