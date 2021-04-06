@@ -1,7 +1,6 @@
 import java.util.Random;
 public class Boy {
     public static String[] randomBoyNames;
-    public static int length;
     public Boy(String names[]){
         randomBoyNames = names;
     }
