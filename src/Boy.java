@@ -1,5 +1,5 @@
 import java.util.Random;
-public class Boy {
+public class Boy extends Human{
     public static String[] randomBoyNames;
     public Boy(String names[]){
         randomBoyNames = names;
