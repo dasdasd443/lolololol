@@ -5,7 +5,7 @@ public class Main {
         Boy boy = new Boy(arr);
         Girl girl = new Girl();
         Relationship relationship = new Relationship();
-        System.out.println(boy.getName()+ " " + relationship.returnRelationships() + " " + girl.getName());
+        System.out.println(boy.getName()+ " " + relationship.getRelationship() + " " + girl.getName());
 
         System.out.print(boy.getName() + " says ");
         boy.talk();
